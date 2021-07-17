@@ -1,0 +1,30 @@
+Git Bash é um terminal extendido para o uso do Git.
+
+https://comandosgit.github.io/
+
+Criando repositório local
+Na pasta/diretório que você deseja versionar, digite:
+git init
+
+Ver estado do Git
+git status
+
+Adicionando seus arquivos ao Git
+git add nome_do_arquivo
+
+ou para adicionar todos os arquivos de uma só vez:
+git add *
+Agora é preciso fazer o commit para que o Git possa rastrear suas modificações:
+git commit -m 'seu comentário sobre seus arquivos aqui'
+
+Ligando seu repositório local a sua nuvem
+git remote add origin link_para_o_repositório_do_seu_projeto
+
+Enviando suas alterações
+Pela primeira vez:
+git push -u origin master
+Nas próximas vezes basta
+git push
+
+Copiando um repositório
+git clone link_para_o_repositório_que_deseja_copiar
